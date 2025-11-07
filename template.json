@@ -3,9 +3,9 @@
   "title": "REA RPG System",
   "description": "Custom RPG system for Foundry VTT with REA mechanics, actors, items, and dice rolls.",
   "version": "1.0.0",
-  "minimumCoreVersion": "0.8.9",
-  "compatibleCoreVersion": "0.8.9",
-  "author": "Your Name",
+  "minimumCoreVersion": "13",
+  "compatibleCoreVersion": "13",
+  "author": "OzzyVee",
   "esmodules": [
     "scripts/main.js",
     "scripts/actor.js",
@@ -54,9 +54,9 @@
     }
   ],
   "systemSettings": [],
-  "url": "https://your-repo-or-website.com",
-  "manifest": "template.json",
-  "download": "https://your-repo-or-website.com/archive/main.zip",
+  "url": "https://github.com/YourName/rea-foundry",
+  "manifest": "https://raw.githubusercontent.com/YourName/rea-foundry/main/template.json",
+  "download": "https://github.com/YourName/rea-foundry/archive/main.zip",
   "icons": [
     {
       "src": "icons/rea-icon.png",
@@ -65,3 +65,4 @@
     }
   ]
 }
+
