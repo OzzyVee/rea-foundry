@@ -14,13 +14,6 @@
   "styles": [
     "styles/style.css"
   ],
-  "packs": [
-    {
-      "name": "items",
-      "label": "REA Items",
-      "path": "packs/items.db",
-      "type": "Item"
-    },
     {
       "name": "actors",
       "label": "REA Actors",
@@ -65,4 +58,5 @@
     }
   ]
 }
+
 
