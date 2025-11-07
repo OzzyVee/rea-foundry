@@ -1,0 +1,16 @@
+<form>
+  <header>
+    <h1>{{name}}</h1>
+  </header>
+  <section>
+    <h2>Stats</h2>
+    <label>Stamina: <input type="number" name="data.stats.stamina" value="{{data.stats.stamina}}"></label>
+    <label>Agility: <input type="number" name="data.stats.agility" value="{{data.stats.agility}}"></label>
+  </section>
+  <section>
+    <h2>Skills</h2>
+    {{#each data.skills}}
+      <label>{{@key}}: <input type="number" name="data.skills.{{@key}}.mod" value="{{this.mod}}"></label>
+    {{/each}}
+  </section>
+</form>

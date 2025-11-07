@@ -1,0 +1,67 @@
+{
+  "name": "rea",
+  "title": "REA RPG System",
+  "description": "Custom RPG system for Foundry VTT with REA mechanics, actors, items, and dice rolls.",
+  "version": "1.0.0",
+  "minimumCoreVersion": "0.8.9",
+  "compatibleCoreVersion": "0.8.9",
+  "author": "Your Name",
+  "esmodules": [
+    "scripts/main.js",
+    "scripts/actor.js",
+    "scripts/item.js"
+  ],
+  "styles": [
+    "styles/style.css"
+  ],
+  "packs": [
+    {
+      "name": "items",
+      "label": "REA Items",
+      "path": "packs/items.db",
+      "type": "Item"
+    },
+    {
+      "name": "actors",
+      "label": "REA Actors",
+      "path": "packs/actors.db",
+      "type": "Actor"
+    }
+  ],
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json"
+    }
+  ],
+  "sheetClasses": [
+    {
+      "id": "rea-actor",
+      "label": "REA Actor Sheet",
+      "type": "Actor",
+      "path": "templates/actor-sheet.html",
+      "class": "REAActorSheet",
+      "isDefault": true
+    },
+    {
+      "id": "rea-item",
+      "label": "REA Item Sheet",
+      "type": "Item",
+      "path": "templates/item-sheet.html",
+      "class": "REAItem",
+      "isDefault": true
+    }
+  ],
+  "systemSettings": [],
+  "url": "https://your-repo-or-website.com",
+  "manifest": "template.json",
+  "download": "https://your-repo-or-website.com/archive/main.zip",
+  "icons": [
+    {
+      "src": "icons/rea-icon.png",
+      "title": "REA System Icon",
+      "type": "image/png"
+    }
+  ]
+}
